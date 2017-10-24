@@ -1,0 +1,125 @@
+/* BODY MAIN FOOTER */
+body * {
+  text-align: center;
+  font-family: 'Concert One', cursive;
+}
+footer ul li{
+    padding: 10px;
+    display: inline;
+}
+footer a{
+  padding: 10px;
+}
+.main-nav{
+  width: 100% !important;
+}
+.main-nav ul li {
+  padding: 10px 0;
+}
+.main-nav, footer a, .nav li a, h1, h2{
+  color: #6246f5;
+}
+.main-nav a:hover, footer a:hover, .nav li a:hover{
+  color: rgba(98, 70, 245, 0.64);
+}
+.main-nav{
+  background-color: #e4e4e4;
+}
+
+/* ELEMENTS */
+img {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+p {
+  padding: 30px;
+  font-size: 30px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* CLASSES */
+.contact {
+  padding: 0px;
+}
+.footer-border{
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+.bottom{
+  width: 100%;
+  float: none;
+}
+.foot-nav{
+  display: none;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.skills ul li {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+/* MEDIA */
+@media screen and (min-width: 768px) {
+  div {
+    width: 50%;
+    display: inline-block;
+    float: left;
+  }
+  .main-nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  header img{
+    width: 50%;
+    right: 100%;
+    display: inline-block;
+  }
+  header p{
+    padding: 0;
+    width: 50%;
+    display: inline-block;
+    left: 100%;
+    float: left;
+  }
+  footer a{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+  }
+  footer li{
+    padding: 0 !important;
+  }
+  .foot-nav{
+    display: inline;
+  }
+  .btt{
+    display: none;
+  }
+  .info{
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  div {
+    width: 33%;
+    display: inline-block;
+    float: left;
+  }
+}
